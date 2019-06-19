@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  background-color: #5a9ad7;
+  height: 100vh;
+}
+
+.wid-30 {
+  width: 30%;
+}
+
+.flex-column-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.wid-30 > div {
+  border-radius: 20%;
+  padding: 20px;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wid-30 > div h4 {
+  margin: 0px;
+}
+
+.wid-70 {
+  width: 70%;
+}
+
+.wid-30, .wid-70 {
+  margin: 30px 20px;
+}
+
+button {
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.submit {
+  background-color: #ffc000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mrg-l-r-10 {
+  margin: 0px 10px;
+}
+
+.labels-data {
+  margin-top: 30px;
+}
